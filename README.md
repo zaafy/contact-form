@@ -1,5 +1,6 @@
 # contact-form
-Contact form with SASS and AJAX
+Contact form with SASS and AJAX.
+
 To run please follow these steps:
 1. Download or clone
 2. Put it on localhost or some hosting

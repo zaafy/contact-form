@@ -15,7 +15,6 @@ const autoprefixer = require('gulp-autoprefixer');
 gulp.task('sass', function () {
 	// take files with extension .scss from /scss folder
 	return gulp.src('scss/*.scss')
-
 		// use scss module on it
 		.pipe(sourcemaps.init())
 		.pipe(sass({
@@ -28,13 +27,13 @@ gulp.task('sass', function () {
 });
 
 gulp.task('minify-css', () => {
-	return gulp.src('scss/*.scss')
+	return gulp.src('css/*.css')
 		.pipe(autoprefixer({
 			browsers: ['last 2 versions'],
 			cascade: false
 		}))
 		.pipe(cleanCSS({compatibility: 'ie8'}))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('css/'));
 });
 
 /*-------------------------------------
@@ -49,7 +48,7 @@ gulp.task('watch', function() {
 /*-------------------------------------
 	default tasks
 -------------------------------------*/
-// when calling 
+// when calling
 // > gulp
 // execute css & watch tasks.
 gulp.task('default', ['sass', 'watch']);
