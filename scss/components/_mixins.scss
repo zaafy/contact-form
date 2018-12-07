@@ -1,0 +1,10 @@
+@function rem-calc($size) {
+  $remSize: $size / 16;
+  @return #{$remSize}rem;
+}
+
+%color-button {
+  background: rgb(18,94,20);
+  background: linear-gradient(45deg, rgba(18,94,20,1) 0%,rgba(123,198,127,1) 50%,rgba(18,94,20,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#125e14', endColorstr='#125e14',GradientType=1 );
+}
