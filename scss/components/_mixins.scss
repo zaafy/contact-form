@@ -4,7 +4,9 @@
 }
 
 %color-button {
-  background: rgb(18,94,20);
-  background: linear-gradient(45deg, rgba(18,94,20,1) 0%,rgba(123,198,127,1) 50%,rgba(18,94,20,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#125e14', endColorstr='#125e14',GradientType=1 );
+  background: #010719;
+  background: -moz-linear-gradient(20deg, #010719 0%, #0096aa 50%, #010719 100%);
+  background: -webkit-linear-gradient(20deg, #010719 0%,#0096aa 50%,#010719 100%);
+  background: linear-gradient(20deg, #010719 0%,#0096aa 50%,#010719 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010719', endColorstr='#010719',GradientType=1 );
 }
