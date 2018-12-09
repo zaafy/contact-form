@@ -3,6 +3,9 @@
   "version": "0.1.1",
   "description": "Simple contact form with SCSS",
   "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0",
     "gulp-postcss": "^8.0.0",
